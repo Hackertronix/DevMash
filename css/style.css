@@ -1,0 +1,543 @@
+#LandingPage p, #nav-btns a {
+    font-family: 'Roboto Mono', monospace
+}
+#LandingPage p, #second p {
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    text-align: center
+}
+#LandingPage p, #nav-btns a, #second p, #team .fa, .mTitle {
+    text-align: center
+}
+#second img, #team img, .course-logo, .opt-content {
+    margin-left: auto;
+    margin-right: auto
+}
+body, html {
+    width: 100%;
+    background-color: #272727;
+    z-index: 0;
+    color: #FFF
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: 0 0
+}
+::-webkit-scrollbar-thumb {
+    background: #FFF;
+}
+.invisible {
+    opacity: 0
+}
+.red-toast {
+    background-color: #b71c1c!important
+}
+.green-toast {
+    background-color: #64dd17!important
+}
+@-webkit-keyframes green {
+    0%, 100% {
+        background-color: #1e1d1d
+    }
+    50% {
+        background-color: #64dd17
+    }
+}
+@-webkit-keyframes red {
+    0%, 100% {
+        background-color: #1e1d1d
+    }
+    50% {
+        background-color: #b71c1c
+    }
+}
+
+.nav {
+    width: 100%;
+    background-color: #1e1d1d;
+    display: flex;
+    flex-direction: row-reverse;
+    -webkit-box-shadow: 0 -14px 91px 7px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 -14px 91px 7px rgba(0, 0, 0, .75);
+    box-shadow: 0 -14px 91px 7px rgba(0, 0, 0, .75);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: background-color .3s ease-in
+}
+#nav-btns {
+    margin-right: 2em
+}
+#nav-btns a {
+    flex: right;
+    color: #f2f2f2;
+    font-size: 2vw;
+    text-decoration: none;
+    min-width: 11vw;
+    padding: 1vh 2vw;
+    float: right;
+    transition: all .3s;
+    font-weight: 500;
+    cursor: pointer
+}
+
+#nav-btns a:active {
+    color: #000;
+    background-color: #FFF;
+}
+#LandingPage {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+#LandingPage img {
+    width: 60vw;
+    max-width: 400px;
+    height: auto;
+    min-width: 200px
+}
+#LandingPage .landingImageWrapper {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+section {
+    position: relative;
+    display: block;
+    height: 100vh;
+}
+.opt-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+footer, footer p {
+    bottom: 0
+}
+footer p{
+  margin-bottom: 0px;
+}
+#LandingPage p {
+    color: #FFF;
+    font-size: 9vw!important;
+    font-weight: 300!important;
+    position: relative;
+    top: 30vh
+}
+.arrow-wrap {
+    font-size: 1em;
+    width: 100%!important;
+    position: absolute;
+    bottom: 6vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#second p, .fa-angle-down, .form-container, footer h6 {
+    position: relative
+}
+.fa-angle-down {
+    font-size: 3vh;
+    color: #fff;
+    text-decoration: none;
+    -webkit-animation: arrows 2.8s .4s;
+    -webkit-animation-delay: .5s
+}
+.opt-content {
+    width: 80vw
+}
+#second p {
+    color: #fff;
+    font-family: sharp, monospace;
+    font-size: 4vw;
+    height: 100%
+}
+#team .inner .columns, .course-track p, .mentorsName {
+    font-family: 'Roboto Mono', monospace!important
+}
+#second p strong {
+    font-size: 20vw;
+    padding: 0
+}
+#second img {
+    height: auto;
+    width: 60vw;
+    display: block
+}
+.course-track p {
+    color: #fff;
+    font-size: 1.8vw!important
+}
+.course-logo {
+    width: 100%;
+    max-height: 260px;
+    height: 100%
+}
+#team .outer {
+    margin-top: 7vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+#team img, #team img:hover {
+    width: 15vw;
+    border-radius: 50%
+}
+#team .inner .columns, .mentorsName {
+    margin-top: 8px;
+    text-align: center
+}
+.mTitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100
+}
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #FFF
+}
+.titleContainer {
+    min-height: 45px!important
+}
+#team .fa {
+    font-size: 1.8em;
+    color: #fff
+}
+#team h5 {
+    margin-top: 2px;
+    margin-bottom: 10px
+}
+#team img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all .3s ease-in;
+    display: block;
+    margin-bottom: 32px
+}
+#team h5, #team h6 {
+    color: #f2f2f2!important
+}
+#team .outer-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#team .arrow-wrap {
+    font-size: 2em;
+    left: 0vw;
+}
+.m{
+  margin-bottom: 0px!important;
+}
+form.container {
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+.course-track .button, form .button {
+    margin-top: 2.5vh;
+    height: 60px!important;
+    width: 300px;
+    line-height: 48px;
+    font-size: 32px;
+    color: #fff!important;
+    font-family: 'Roboto Mono', monospace!important;
+    transition: all .3s;
+    float: right
+}
+.select-wrapper {
+    color: #f2f2f2
+}
+.form-container h2, input, label {
+    color: #f2f2f2!important;
+    font-family: 'Roboto Mono', monospace!important
+}
+footer, form {
+    position: absolute
+}
+
+div#gender {
+    padding-left: 1em;
+}
+.form-container h2 {
+    border: 1px solid #FFF;
+    padding: .2em;
+    margin: 10vh 0!important;
+}
+footer {
+    font-family: 'Roboto Mono', monospace!important;
+    background: #FFF!important;
+    padding-right: 1em;
+    width: 100vw!important;
+    padding-left: 1em;
+    animation-delay: .5s;
+    z-index: 0;
+}
+.valign-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.valign-wrapper .valign {
+    display: block
+}
+.mobile-only {
+    display: none
+}
+.input-field input {
+    height: 2.5em !important;
+    width: 100%;
+    background: #272727;
+    border: 0px;
+    border-bottom: 2px white solid;
+    font-size: 1.3vw !important;
+    transition: .1s border-bottom cubic-bezier(0.62, 0.48, 1, 1);
+    padding-left: 1em;
+    outline: none;
+}
+.input-field input:focus {
+    border-bottom: 4px white solid;
+}
+
+/* OPtion input Class*/
+
+@-webkit-keyframes click-wave {
+    0% {
+        width: 20px;
+        height: 20px;
+        opacity: 0.35;
+        position: relative;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        margin-left: -40px;
+        margin-top: -40px;
+        opacity: 0.0;
+    }
+}
+@-moz-keyframes click-wave {
+    0% {
+        width: 20px;
+        height: 20px;
+        opacity: 0.35;
+        position: relative;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        margin-left: -40px;
+        margin-top: -40px;
+        opacity: 0.0;
+    }
+}
+@-o-keyframes click-wave {
+    0% {
+        width: 20px;
+        height: 20px;
+        opacity: 0.35;
+        position: relative;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        margin-left: -40px;
+        margin-top: -40px;
+        opacity: 0.0;
+    }
+}
+@keyframes click-wave {
+    0% {
+        width: 20px;
+        height: 20px;
+        opacity: 0.35;
+        position: relative;
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        margin-left: -40px;
+        margin-top: -40px;
+        opacity: 0.0;
+    }
+}
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 19.33333px;
+    width: 20px;
+    height: 20px;
+    -webkit-transition: all 0.15s ease-out 0;
+    -moz-transition: all 0.15s ease-out 0;
+    transition: all 0.15s ease-out 0;
+    background: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    margin-right: 0.5rem;
+    z-index: 1000;
+}
+.option-input:hover {
+    background: #9faab7;
+}
+.option-input:checked {
+    background: #FFF;
+}
+.option-input:checked::before {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    display: inline-block;
+    font-size: 26.66667px;
+    text-align: center;
+    line-height: 20px;
+}
+.option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #FFF;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+.option-input.radio {
+    border-radius: 50%;
+}
+.option-input.radio::after {
+    border-radius: 50%;
+}
+select {
+    color: #FFF !important;
+    background-color: #424242;
+    outline: none;
+    border: 0px;
+    width: 100% !important;
+    height: 3em;
+    font-family: 'Roboto Mono', monospace!important;
+    padding-left: 1em;
+
+}
+select option{
+  border: none;
+  box-shadow: none;
+  background-color: #FFF;
+  color: black;
+  background-image: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+ option:hover {
+    outline: none;
+    background-color: #FFF !important;
+}
+
+/* For Mobile*/
+
+@media only screen and (max-width:1026px) {
+    #nav-btns a {
+        font-size: 5vw
+    }
+    #nav-btns {
+        margin-right: .5em
+    }
+    .course-track p {
+        color: #fff;
+        font-size: 3vw!important
+    }
+    .course-logo {
+        max-height: 220px;
+        height: 15vh
+    }
+    .course-track .button, form .button {
+        margin-top: 2.5vh;
+        height: 40px!important;
+        line-height: 28px;
+        color: #fff!important;
+        font-family: 'Roboto Mono', monospace!important;
+        transition: all .3s
+    }
+    .course-track .button {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        width: 32vw;
+        font-size: 9px;
+        float: right
+    }
+    form .button {
+        width: 90vw;
+        max-width: 100%;
+        font-size: 24px;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    #team .outer {
+        flex-direction: column
+    }
+    #team .fa {
+        font-size: 1em
+    }
+    .inner {
+        flex-direction: column;
+        justify-content: flex-start
+    }
+    .mContent {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2vh
+    }
+    .titleContainer {
+        min-height: 0!important
+    }
+    .inner .fa-twitter:nth-child(1) {
+        margin-bottom: 12px
+    }
+
+    .form-container h2 {
+        font-size: 10vw;
+    }
+    #second img {
+        height: auto;
+        width: 80vw;
+    }
+    h4 {
+        margin: 0!important
+    }
+    label {
+        font-size: 5vw;
+    }
+    .input-field input {
+        font-size: 4vw !important;
+        width: 90%!important;
+    }
+    select {
+        margin-top: .5em;
+    }
+    #team .arrow-wrap {
+        font-size: 3em;
+        left: 0vw;
+    }
+}
