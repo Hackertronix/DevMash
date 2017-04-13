@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef47be8f-cb19-46d0-8164-62f3d9677b99" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/google-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cs-society.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,21 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cs-society.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/cs-society.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4139">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="331">
+              <caret line="298" column="1" lean-forward="true" selection-start-line="298" selection-start-column="1" selection-end-line="298" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -162,6 +151,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,12 +265,20 @@
       <updated>1490887790210</updated>
       <workItem from="1490887791788" duration="1963000" />
       <workItem from="1490895605146" duration="6000" />
-      <workItem from="1492062528319" duration="612000" />
+      <workItem from="1492062528319" duration="746000" />
     </task>
+    <task id="LOCAL-00001" summary="removed partner and added new partner">
+      <created>1492063258202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492063258202</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2581000" />
+    <option name="totallyTimeSpent" value="2715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="809" extended-state="6" />
@@ -309,6 +307,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed partner and added new partner" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed partner and added new partner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -373,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4139">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="331">
+          <caret line="298" column="1" lean-forward="true" selection-start-line="298" selection-start-column="1" selection-end-line="298" selection-end-column="1" />
           <folding />
         </state>
       </provider>
